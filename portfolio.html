@@ -3,29 +3,37 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Portfolio | Your Name</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Brian Kandrac</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
-
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Brian Kandrac</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-    </div>
-  </header>
+    <nav class="navbar navbar-expand-lg fixed-top ">  
+        <a class="navbar-brand" href="#">Brian Kandrac</a>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">  
+        <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse navbar-collapse " id="navbarSupportedContent">     <ul class="navbar-nav mr-4">
+        <li class="nav-item">
+            <a class="nav-link" data-value="about" href="index.html">About</a>        </li>  
+       <li class="nav-item">
+           <a class="nav-link " data-value="portfolio"href="portfolio.html">Portfolio</a>    
+        </li>  
+       <li class="nav-item"> 
+        <a class="nav-link " data-value="contact" href="contact.html">Contact</a>       </li> 
+       </ul> 
+       </div></nav>
 
   <div id="main-container" class="container">
     <section class="main-section">
+      <div class="row">
+      <div class="col-sm-8" id="work">
       <h1>Portfolio</h1>
 
       <div class="work">
-        <img src="assets/images/video games.jpg" alt="Video Games">
+        <img src="assets/images/video games.jpg" alt="Video Games" >
 
         <h3>Video Games</h3>
       </div>
@@ -55,9 +63,14 @@
   </div>
 
   <footer>
+      <div class="row">
+    
     <div class="container">
+      
+      <div class="col-lg-8">
       Copyright &copy;
     </div>
+  </div>
   </footer>
 </body>
 
